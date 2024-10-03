@@ -1,0 +1,7 @@
+# Crie um programa que leia o quanto de dinheiro que uma pessoa tem na carteira e mostre quantos dólares ela pode comprar
+
+c = float(input('Digite quanto dinheiro tem na sua carteira: R$'))
+d = 3.27
+t = c / d
+
+print('Com {:.2f} reais que eu tenho na carteira eu posso comprar {:.2f} dólares'.format(c,t))
